@@ -228,3 +228,20 @@ Preferences -> Profiles -> Colors 中有Foreground是标准字体颜色，ANSI C
 bindkey '\e[1~' beginning-of-line                                                                                          
 bindkey '\e[4~' end-of-line 
 ```
+
+### autojump: 快速进入频繁访问的目录
+[rupa/z](https://github.com/rupa/z)
+
+### 历史记录相关
+```
+#在命令前添加空格，不将此命令添加到纪录文件中                                                                              
+setopt HIST_IGNORE_SPACE                                                                                                   
+                                                                                                                                
+# 多终端不共享历史                                                                                                         
+setopt INC_APPEND_HISTORY
+```
+
+
+---
+参考：
+- [1][我的zsh简单设置](https://www.cnblogs.com/bamanzi/p/zsh-simple-guide.html)
