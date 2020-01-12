@@ -178,7 +178,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source ~/.bashrc
 export PATH="/usr/local/opt/go@1.9/bin:$PATH"
 #在命令前添加空格，不将此命令添加到纪录文件中
 setopt HIST_IGNORE_SPACE
