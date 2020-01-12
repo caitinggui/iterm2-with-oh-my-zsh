@@ -183,4 +183,6 @@ export PATH="/usr/local/opt/go@1.9/bin:$PATH"
 setopt HIST_IGNORE_SPACE
 
 # 多终端不共享历史
+unsetopt share_history
 setopt INC_APPEND_HISTORY
+export GOPROXY=https://goproxy.cn,direct
